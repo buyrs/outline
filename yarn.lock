@@ -1467,14 +1467,22 @@
   dependencies:
     lib0 "^0.2.47"
 
-"@hocuspocus/provider@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@hocuspocus/provider/-/provider-1.0.0-beta.6.tgz#5058ecb043516c9729069723a68327954aff2897"
-  integrity sha512-Plgq9vfiHXsEnHpvwWobUs+lEnsh5qIrOiXbvK8slLnDcVBvFcrmYbC4MBBklWA0N60EY4kVFpRVBsZfoohR0w==
+"@hocuspocus/common@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@hocuspocus/common/-/common-2.2.0.tgz#6e09c75d269fe08f0e9246c978a537350b99f513"
+  integrity sha512-PkpbFfMC2Tryv5XH/waRMq79zYdrSUc86U6mSHY4+cirvl+U15/ZMV/pdI+sx+HYzZXN/351JT9FiGbKOI/JrQ==
   dependencies:
-    "@hocuspocus/common" "^1.0.0-beta.6"
+    lib0 "^0.2.47"
+
+"@hocuspocus/provider@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@hocuspocus/provider/-/provider-2.2.0.tgz#5354633a486f344a3bf236d25d817729a6de735d"
+  integrity sha512-K7OXfUYdmOzoSVQTB2suVmlsM4CVayMg9Scz7qTcWADxHIC811UQzhAjqDoLBjXRjCiYtZf3kLEJnIvf8dCc8A==
+  dependencies:
+    "@hocuspocus/common" "^2.2.0"
     "@lifeomic/attempt" "^3.0.2"
-    lib0 "^0.2.46"
+    lib0 "^0.2.47"
+    ws "^7.5.9"
 
 "@hocuspocus/server@^1.0.0-beta.6":
   version "1.0.0-beta.6"
@@ -16180,10 +16188,10 @@ write-file-atomic@^5.0.0:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-ws@^7.5.3:
-  version "7.5.6"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
-  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+ws@^7.5.3, ws@^7.5.9:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@^8.11.0, ws@^8.2.3, ws@^8.5.0:
   version "8.11.0"
