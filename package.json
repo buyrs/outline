@@ -99,7 +99,7 @@
     "date-fns": "^2.30.0",
     "dd-trace": "^3.33.0",
     "diff": "^5.1.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "email-providers": "^1.14.0",
     "emoji-mart": "^5.5.2",
     "emoji-regex": "^10.3.0",
